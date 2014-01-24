@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	<Testing>
+		<Service name="radiography">
+			<metaDescription><![CDATA[Lafayette Testing Services delivers high quality nondestructive radiography testing services at competitive prices using the most updated technology to achieve accurate results within the shortest possible time frame.]]></metaDescription>
+			<metaKeywords><![CDATA[radiography, nondestructive testing, nondestructive testing services, x-radiation, gamma isotopes, visual image record, film, structural discontinuities, fabrication errors, radiographic inspections, casting integrity, large drive in vaults, low energy radiography, high quality radiographs, 100 Curies of IR-192, CO-60, 160 KeV to 6 MeV Linatron capacity, testing thick steel]]></metaKeywords>
+		</Service>
+		<Service name="digitalRadiography">
+			<metaDescription><![CDATA[Lafayette Testing Services delivers high quality nondestructive digital radiography testing services at competitive prices using the most updated technology to achieve accurate results within the shortest possible time frame.]]></metaDescription>
+			<metaKeywords><![CDATA[Digital Radiography, nondestructive testing, nondestructive testing services, high technology filmless radiography, fast turnaround, computed radiography images, Fuji NDT Computed Radiography System, Fuji NDT DynamIX Series 4 Reader/Erasure Unit, DynamIX View Work Station with Image Processing Software, Image Phosphor Plates, quality]]></metaKeywords>
+		</Service>
+		<Service name="highEnergy">
+			<metaDescription><![CDATA[Lafayette Testing Services delivers high quality nondestructive high energy X-ray testing services at competitive prices using the most updated technology to achieve accurate results within the shortest possible time frame.]]></metaDescription>
+			<metaKeywords><![CDATA[high energy x-ray, nondestructive testing, nondestructive testing services, Varian Clinac 6 Million Electron Volt Linear Accelerator, radiograph, test thick steel, 2T Quality images, 6 MeV Unit, Linear Accelerator, test in any direction, multidirectional radiography, fast turnaround, High Energy Radiography]]></metaKeywords>
+		</Service>
+		<Service name="magnetic">
+			<metaDescription><![CDATA[Lafayette Testing Services delivers high quality nondestructive magnetic particle testing services at competitive prices using the most updated technology to achieve accurate results within the shortest possible time frame.]]></metaDescription>
+			<metaKeywords><![CDATA[Magnetic Particle, nondestructive testing, nondestructive testing services, locating discontinuities, test ferromagnetic materials, magnetic field, discontinuity outline, Magnetic Particle Method, iron, nickel, cobalt alloys, finished articles, bars, castings, forgings, welded joints, structural members, shafts, bolts, Wet Fluorescent Magnetic Particle testing, linear discontinuities]]></metaKeywords>
+		</Service>
+		<Service name="liquidPenetrant">
+			<metaDescription><![CDATA[Lafayette Testing Services delivers high quality nondestructive liquid penetrant testing services at competitive prices using the most updated technology to achieve accurate results within the shortest possible time frame.]]></metaDescription>
+			<metaKeywords><![CDATA[Liquid Penetrant, nondestructive testing, nondestructive testing services, Liquid Penetrant Testing, find discontinuities, capillary action, detection, surface cracks, laps, porosity, shrinkage areas, laminations, NDT examinations, ASNT recommended practice SNT-TC-1A, commercial methods, industrial methods, aerospace methods, test small large castings, test large production volumes]]></metaKeywords>
+		</Service>
+		<Service name="ultrasonics">
+			<metaDescription><![CDATA[Lafayette Testing Services delivers high quality nondestructive ultrasonics testing services at competitive prices using the most updated technology to achieve accurate results within the shortest possible time frame.]]></metaDescription>
+			<metaKeywords><![CDATA[ultrasonics, nondestructive testing, nondestructive testing services, test nonmetallic products, test metallic products, detect internal and surface flaws, define bond characteristics, measure thickness and extent of corrosion, contact testing, immersion testing,  shear wave, angle beam, validateon weldments, validate solid shafts, validate materials, ultrasonic services, ultrasonic inspection]]></metaKeywords>
+		</Service>
+		<Service name="cnc">
+			<metaDescription><![CDATA[Lafayette Testing Services delivers high quality cnc precision machining services at competitive prices using the most updated technology to achieve accurate results within the shortest possible time frame.]]></metaDescription>
+			<metaKeywords><![CDATA[cnc machining, precision, lower overall production costs, less lead-times, superior quality control, exceptional turnaround times, reduce transportation costs, reduce lead-times, extended services]]></metaKeywords>
+		</Service>
+		<Service name="complimentary">
+			<metaDescription><![CDATA[Lafayette Testing Services delivers high quality nondestructive complimentary services at competitive prices using the most updated technology to achieve accurate results within the shortest possible time frame.]]></metaDescription>
+			<metaKeywords><![CDATA[complimentary services, sandblasting, welding, mechanical polishing, lower overall production costs, less lead-times, superior quality control, exceptional turnaround times, reduce transportation costs, reduce lead-times, extended services]]></metaKeywords>
+		</Service>
+	</Testing>

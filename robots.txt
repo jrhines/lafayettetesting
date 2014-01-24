@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /css/
+Disallow: /includes/
+Disallow: /scripts/
+Disallow: /usageAgreement.asp
+Disallow: /privacyStatement.asp

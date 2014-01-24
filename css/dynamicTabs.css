@@ -1,0 +1,143 @@
+/* 	Property Adjustment Key: top, right, bottom, left */
+
+.tabUL {
+	list-style-type: none; 
+	background: transparent;
+	position: absolute;
+	z-index: 10;
+	margin: 0px 0px 0px 70px;
+	left: -16px;
+	}
+	
+.tabLI {
+	display: block; 
+	float: left;
+	}
+
+.tabSnazzy {
+	background: transparent;
+	}
+	
+.tabSnazzy span {
+	text-align: center; 
+	color: #000000; 
+	font-weight: bold; 
+	text-transform: uppercase;
+	}
+
+.tabTop {
+	display: block; 
+	background: transparent;
+	}
+	
+.tabRnd1, .tabRnd1Selected, .tabRnd2, .tabRndSelected, .tabRnd3, .tabRnd3Selected, .tabRnd4, .tabRnd4Selected, .tabSqr1, .tabSqrSelected, .tabSqr2, .tabSqr2Selected, .tabSqr3, .tabSqr3Selected, .tabSqr4, .tabSqr4Selected {
+	display: block; 
+/* hide overflow:hidden from IE5/Mac */ 
+/* \*/ 
+	overflow: hidden; 
+/* */ 
+	}
+	
+.tabRnd1, .tabRnd1Selected, .tabRnd2, .tabRnd2Selected, .tabRnd3, .tabRnd3Selected, .tabSqr1, .tabSqr1Selected, .tabSqr2, .tabSqr2Selected, .tabSqr3, .tabSqr3Selected  {
+	height: 1px;
+	/* hide overflow:hidden from IE5/Mac */ 
+	/* \*/ 
+		overflow: hidden; 
+	/* */ 
+	}
+	
+.tabRnd2, .tabRnd3, .tabRnd4, .tabSqr2, .tabSqr3, .tabSqr4 {
+	background: #ECE9E9; 
+	border-left: 1px solid #73838c; 
+	border-right: 1px solid #73838c;
+	}
+	
+.tabRnd2Selected, .tabRnd3Selected, .tabRnd4Selected, .tabSqr2Selected, .tabSqr3Selected, .tabSqr4Selected {
+	background: #FFFFFF; 
+	border-left: 1px solid #73838c; 
+	border-right: 1px solid #73838c;
+	}
+
+/* Round Corners */
+.tabRnd1, .tabRnd1Selected {
+	margin: 0 5px; 
+	background: #73838c;
+	}
+	
+.tabRnd2, .tabRnd2Selected {
+	margin: 0 3px; 
+	border-width: 0 2px;
+	}
+	
+.tabRnd3, .tabRnd3Selected {
+	margin: 0 2px;
+	}
+
+.tabRnd4, .tabRnd4Selected {
+	height: 2px; 
+	margin: 0 1px;
+	}
+
+/* Square corners */	
+.tabSqr1, .tabSqr1Selected {	
+	background: #FFFFFF;
+	}
+	
+.tabSqr4, .tabSqr4Selected {
+	height: 2px; 	
+	}
+
+.tabContent {
+	display: block; 
+	background: #ECE9E9; 
+	border: 0 solid #73838c; 
+	border-width: 0px 1px 0px 1px;
+	padding: 2px 0px 5px 0px;
+	}
+	
+.tabContentSelected {
+	display: block; 
+	background: #FFFFFF;
+	border-right: 1px solid #73838c;
+	border-left: 1px solid #73838c;
+	border-bottom: 1px solid #FFFFFF;
+	padding: 2px 0px 5px 0px;
+	}
+
+a.tabMenu, a.tabMenu:visited {
+	display: block; 
+	text-decoration: none; 
+	width: 130px; 
+	font-size: 80%;
+	}
+		
+a.tabMenu:hover {
+	background: transparent;
+	text-decoration: none; 
+	cursor: pointer;
+	}
+	
+a.tabMenu:hover span {
+	border-bottom: 1px solid #FFFFFF; 
+	}
+	
+a.tabMenu:hover .tabContent {
+	background:#FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	}
+	
+a.tabMenu:hover .tabRnd1, a.tabMenu:hover .tabSqr1 {
+	background:#73838c;
+	}
+	
+a.tabMenu:hover .tabRnd2, a.tabMenu:hover .tabRnd3, a.tabMenu:hover .tabRnd4, a.tabMenu:hover .tabSqr2, a.tabMenu:hover .tabSqr3, a.tabMenu:hover .tabSqr4 {
+	background:#FFFFFF; 
+	border-color:#73838c;
+	}
+
+.tabBtmLine {
+	border-bottom: 1px solid #73838c;
+	margin: 11px 0px 0px 0px;
+	*margin: 59px 0px 0px 0px;
+	clear: both;	
+	}

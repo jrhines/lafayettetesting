@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	<Testing>
+		<Service name="radiography">
+			<Headline><![CDATA[Radiography Testing]]></Headline>
+			<Paragraph><![CDATA[Lafayette Testing Services, Inc. (LTS) provides industrial radiographic services for a growing number of industries. When utilizing X-Radiation and/or gamma isotopes, LTS can test most materials, provide a permanent visual image record of the test specimen on film, reveal the internal nature of the material, and reveal structural discontinuities and fabrication errors. The majority of our radiographic inspections are applied to steel and aluminum cast-related projects where a need or a requirement exists to monitor the integrity of the castings.]]></Paragraph>
+			<Paragraph><![CDATA[LTS offers a wide variety of x-ray service capabilities for inspection of any size component. With our large drive in vaults and diverse capacity, we can provide expedient service on high production requirements.]]></Paragraph>
+			<Paragraph><![CDATA[LTS compliments its low energy radiography by providing fast, sharp, precise radiographs of section thickness up to 12 inches of steel or equivalent.]]></Paragraph>
+			<Paragraph><![CDATA[X-Ray Radiography - with energy ranges from 100 Curies of IR-192 and CO-60 sources, 160 KeV to 6 MeV Linatron capacity for producing high quality radiographs.]]></Paragraph>
+		</Service>
+		<Service name="digitalRadiography">
+			<Headline><![CDATA[Digital Radiography Testing]]></Headline>
+			<Paragraph><![CDATA[High Technology Filmless Radiography is a service that Lafayette Testing can provide. Digital Radiography services are used for high production projects which requires fast turnaround, computed radiography images, and quality defined images that can be stored on disk or e-mailed to the costumer. Fuji NDT Computed Radiography System is the best technology available, our system, Fuji NDT DynamIX Series 4 Reader/Erasure Unit, DynamIX View Work Station with Image Processing Software, and Image Phosphor Plates creates an end result image that is outstanding in quality, second to none.]]></Paragraph>
+		</Service>
+		<Service name="highEnergy">
+			<Headline><![CDATA[High Energy X-Ray Testing]]></Headline>
+			<Paragraph><![CDATA[With our new Varian Clinac 6 Million Electron Volt Linear Accelerator, LTS can radiograph material thicknesses of 3" to 12" of steel producing Sharp 2T Quality images. This 6 MeV Unit has a head unit with motorized tilt and motorized mounting frame allowing the technician to manipulate the Linear Accelerator in any direction which means less handling of your part which in turn produces fast turnaround times. Our new Water Chiller Model 200R Circulating Closed Loop Coolant Cooler allows us to provide High Energy Radiography 24 hours a day 7 days a week.]]></Paragraph>
+		</Service>
+		<Service name="magnetic">
+			<Headline><![CDATA[Magnetic Particle Testing (MT)]]></Headline>
+			<Paragraph><![CDATA[Magnetic Particle Testing (MT) is a method for locating discontinuities at or near the surface in ferromagnetic materials. Because magnetization of certain metals is possible, small particles that are attracted to magnetic fields are applied to the surface of the test material after or during induction of a magnetic field. The collection of these small particles at the leakage fields will form an outline of the discontinuity which generally indicates its location, size, shape, and extent.]]></Paragraph>
+			<Paragraph><![CDATA[LTS utilizes the Magnetic Particle Method in many industrial applications where potential problems can occure in ferromagnetic materials. Ferromagnetic materials include most of the iron, nickel, and cobalt alloys. Magnetic Particle testing can be applied to finished articles, bars, castings, and forgings. This technique is also commonly used to locate cracking in welded joints, structural members, shafts, and bolts.]]></Paragraph>
+			<Paragraph><![CDATA[As shown in our photo, one variation of the technique known as Wet Fluorescent Magnetic Particle testing, uses iron particles treated with a fluorescent dye and suspended in liquid to inspect critical areas. An ultraviolet light is used to examine the test area after the application of the particles in order to detect fine, linear discontinuities.]]></Paragraph>
+			<Paragraph><![CDATA[We guarantee an extensive inspection, fast turnaround time, and reasonable cost for this type and all LTS types of testing methods. Our inspectors are carefully trained, tested, and certified to perform Magnetic Particle inspections on numerous applications our clients require.]]></Paragraph>
+		</Service>
+		<Service name="liquidPenetrant">
+			<Headline><![CDATA[Liquid Penetrant Testing (PT)]]></Headline>
+			<Paragraph><![CDATA[Liquid Penetrant Testing (PT) is a Nondestructive Testing method for finding discontinuities that are open to the surface. Indications or flaws can be found regardless of size, configuration, internal structure, or chemical composition of the material being inspected. On materials having nonporous qualities, ferrous and nonferrous, liquid penetrant can seep into various types of surface openings by capillary action. Because of this, the procedure is well suited for the detection of all types of surface cracks, laps, porosity, shrinkage areas, laminations, and similar discontinuities. All Lafayette Testing Certified Examiners performing NDT examinations are qualified in accordance with ASNT recommended practice SNT-TC-1A. All personnel routinely attend refresher classes for recertification to assure that our inspection operations meet all commercial, industrial, and aerospace methods, standards and specifications.]]></Paragraph>
+			<Paragraph><![CDATA[Our Laboratory has both floor space and equipment capability to handle small or large castings, in either one or two piece lots to large production volumes.]]></Paragraph>
+		</Service>
+		<Service name="ultrasonics">
+			<Headline><![CDATA[Ultrasonics Testing]]></Headline>
+			<Paragraph><![CDATA[Ultrasonics has become of great importance in recent years; its unique properties have been applied to the casting industry, medicine, automotive, and many other fields. It is used to test a variety of metallic and nonmetallic products such as welds, forgings, castings, sheet, tubing, plastics, and ceramics. Ultrasonic is a Nondestructive testing method in which beams of high frequency sound waves are introduced into the material being inspected and are used to detect internal and surface flaws, to define bond characteristics, and to measure thickness and extent of corrosion. Techniques of ultrasonic testing are accomplished with one of two methods: contact and immersion testing. Both inspection methods can be performed in our laboratory setting.]]></Paragraph>
+			<Paragraph><![CDATA[For predictive maintenance requirements, LTS frequently performs ultrasonic surveys on tanks, piping, pressure vessel systems, and castings to determine existing wall thickness. Also, the shear wave (angle beam) technique is used for validation purposes on weldments, solid shafts, and other materials.]]></Paragraph>
+			<Paragraph><![CDATA[LTS provides state-of-the-art ultrasonic services that conform to the latest applicable specifications and inspection techniques.]]></Paragraph>
+		</Service>
+		<Service name="cnc">
+			<Headline><![CDATA[CNC Precision Machining Services]]></Headline>
+			<Paragraph><![CDATA[
+				<span class="floatLeft">
+					<h5>Vertical Machining Center</h5>
+					<dl>
+						<dt>Fadal 4020A</dt>
+						<dd>Table size 48&quot;x20&quot;</dd>
+						<dd>X-axis travel 40&quot;</dd>
+						<dd>Y-axis travel 20&quot;</dd>
+						<dd>Z-axis travel 28&quot;</dd>
+						<dd>Rigid Tapping</dd>
+					</dl>
+					<dl>
+						<dt>Kitamura Mycenter MI/485</dt>
+						<dd>Pallet size 11.8&quot;x19.7&quot;</dd>
+						<dd>Maximum table bed 176#</dd>
+						<dd>X-axis travel 19&quot;</dd>
+						<dd>Y-axis travel 13&quot;</dd>
+						<dd>Z-axis travel 16&quot;</dd>
+						<dd>Rigid Tapping</dd>
+						<dd>Maximum spindle speed 10,000 RPM</dd>
+						<dd>16 station tool changes</dd>
+					</dl>
+					<dl>
+						<dt>Bridgeport Series I</dt>
+						<dd>2 HP</dd>
+						<dd>X-axis 36&quot;</dd>
+						<dd>Y-axis 12&quot;</dd>
+						<dd>Z-axis Travel Max 18.75&quot;</dd>
+					</dl>
+				</span>
+			]]></Paragraph>
+			<Paragraph><![CDATA[
+				<span class="floatLeft">
+					<h5>Turning Center</h5>
+					<dl>
+						<dt>Kia SKT - 25</dt>
+							<dd>Maximum turning diameter 19.7&quot;</dd>
+							<dd>Maximum swing 24.4&quot;</dd>
+							<dd>10&quot; and 12&quot; chuck size</dd>
+							<dd>2-axis 29.5&quot;</dd>
+							<dd>Distance between center 28.3&quot;</dd>
+							<dd>3&quot; Bar Capacity</dd>
+							<dd>Spindle Hole Size 3.54&quot;</dd>
+					</di>
+				</span>
+			]]></Paragraph>
+		</Service>
+		<Service name="complimentary">
+			<Headline><![CDATA[Complimentary Services]]></Headline>
+			<Paragraph><![CDATA[Since our start in 1992, we have continued to diversify and expand our laboratory proccesses and capabilities such as our complimentary services; Sandblasting, Welding, and Mechanical Polishing. With these complimetary services we are able to work with our customers to determine their requirements and design our services to meet their specific needs to help ensure lower overall production costs, less lead-times, superior quality control, and exceptional turnaround times for our customers.]]></Paragraph>
+			<Paragraph><![CDATA[Many products being inspected utilizing Nondestructive Testing methods also require specific processes after inspections have been completed. LTS can help reduce transportation costs and lead-times by providing these extended services at our laboratory.]]></Paragraph>
+		</Service>
+	</Testing>
