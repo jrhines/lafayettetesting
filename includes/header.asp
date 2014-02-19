@@ -86,20 +86,7 @@ End if%>
 </head>
 
 <body bgcolor="#FFFFFF"<%If page = "Contact" Then%> onload="initAll()" onunload="GUnload()" <%ElseIf page = "Home" Then%> onload="fade()" <%End If%>>
-<a name="top"><div id="urlss-20120917-49">
-<strong>
-<a href="http://www.beatsbydreschweizgunstig.com/" title="beats">beats</a>
-<a href="http://www.louisvuittontaschenshopde.com/" title="louis vuitton handtaschen">louis vuitton handtaschen</a>
-<a href="http://www.louisvuittononlineat.com/" title="louis vuitton taschen">louis vuitton taschen</a>
-<a href="http://www.abercrombieonlineshopuk.com/" title="fitch abercrombie">fitch abercrombie</a>
-<a href="http://www.jewellerysaleonlineuk.com/" title="thomas sabo jewellery">thomas sabo jewellery</a>
-<a href="http://www.monsterbeatsosterreich.com/" title="beats by dre">beats by dre</a>
-<a href="http://www.bagslouisvuittonireland.com/" title="louis vuitton bags">louis vuitton bags</a>
-<a href="http://www.trendyjewelrysaleonline.com/" title="buy thomas sabo">buy thomas sabo</a>
-<a href="http://www.abercrombiefitchpascherfrance.com/" title="abercrombie et fitch">abercrombie et fitch</a>
-<a href="http://www.fitchabercrombieonlinede.com/" title="abercrombie and fitch">abercrombie and fitch</a>
-</strong></div>
-<script>document.getElementById("urlss-20120917-49").style.display="none"</script></a>
+
 <p id="navSecondary"><a href="<%=address%>contact.asp">Contact</a> <span class="pipe">|</span> <a href="<%=address%>siteMap.asp">Site Map</a></p>
 <div id="navPrimary">
 	<p id="identity">Lafayette Testing Services</p>
