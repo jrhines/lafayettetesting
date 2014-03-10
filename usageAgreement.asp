@@ -1,11 +1,10 @@
-<!-- #Include file="includes/top.asp" -->
+<!-- #Include Virtual="/includes/top.asp" -->
 <%
 page = "Usage Agreement"
 title = "Usage Agreement - Lafayette Testing Services"
 metaDescription = "Lafayette Testing Services, Inc. offers high quality non-destructive testing services specializing in radiography, digital radiography, high energy x-ray, magnetic particle, liquid penetrant, and ultrasonics."
-metaKeywords = "Lafayette Testing Services usage agreement"
 %>
-<!-- #INCLUDE file="includes/header.asp" -->
+<!-- #Include Virtual="/includes/header.asp" -->
 <div id="articleContainer">
 	<h1>Usage Agreement</h1>
 	<p>This Usage Agreement applies to the Lafayette Testing Services Web site. The Web site's content is intended for informational purposes to customers, partners and the general public. By using any part of this Web site you agree to abide by the terms and conditions set forth in this Usage Agreement.</p>
@@ -25,4 +24,4 @@ metaKeywords = "Lafayette Testing Services usage agreement"
 	<p>Lafayette Testing Services reserves the right, at its sole discretion, to change any portion of this Web site at any time without prior notice. These changes are effective upon posting. Your continued use of the site after any changes are posted will be considered acceptance of those changes.</p>
 	<p>IF YOU DO NOT AGREE TO ABIDE BY THESE TERMS AND CONDITIONS EXIT THIS WEB SITE IMMEDIATELY.</p>
 </div>
-<!-- #INCLUDE file="includes/footer.asp" -->
+<!-- #Include Virtual="/includes/footer.asp" -->

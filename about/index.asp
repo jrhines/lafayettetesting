@@ -1,13 +1,11 @@
-<!-- #Include File="../includes/top.asp" -->
-<!-- #Include File="../includes/FlashWrapper.asp" -->
-<!-- #Include File="../includes/fixCharacters.asp" -->
-<!-- #Include File="../includes/XMLDataController.asp" -->
-<!-- #Include File="../includes/dynamicTabs.asp" -->
+<!-- #Include Virtual="/includes/top.asp" -->
+<!-- #Include Virtual="/includes/fixCharacters.asp" -->
+<!-- #Include Virtual="/includes/XMLDataController.asp" -->
+<!-- #Include Virtual="/includes/dynamicTabs.asp" -->
 <%
 page = "About Us"
 title = "About Lafayette Testing Services, Inc. (LTS) - quality - nondestructive testing - CNC precision machining - customer service"
 metaDescription = "Lafayette Testing Services delivers high quality nondestructive testing services at competitive prices using the most updated technology to achieve accurate results within the shortest possible time frame."
-metaKeywords = "high-quality nondestructive testing services, competitive prices, insure reliability, fast, efficient, cost-effective, quality, customer service, reduce risk, improve inspections, refine procedures, customer satisfaction, service second to none, NDT services, dedicated professionals, accurate results, short timeframe, updated technology, valuable partner"
 
 dim oXMLDC_1, newAryParams(2,1)
 	
@@ -25,7 +23,8 @@ dim oXMLDC_1, newAryParams(2,1)
 	oXMLDC_1.aryParams = newAryParams
 %>
 
-<!-- #INCLUDE file="../includes/header.asp" -->
+<!-- #Include Virtual="/includes/header.asp" -->
+<!-- #Include Virtual="/includes/FlashWrapper.asp" -->
 <%'Dynamic Tabs V1.0
 
 dim strTabTitles, strTabSelected, strTabType, strQSExclude, oDynamicTabs
@@ -49,18 +48,18 @@ oDynamicTabs.tabTitles = strTabTitles
 oDynamicTabs.tabType = strTabType
 oDynamicTabs.QSExclude = strQSExclude
 %>
-<table border="0" width="<%=siteWidth%>" cellspacing="0" cellpadding="0">
-	<tr valign="top">
+<table id="content-table">
+	<tr>
 		<td id="articleContainer">
 			<%response.write(oDynamicTabs.getTabs())%>
 			
 			<%= oXMLDC_1.getXMLData("complete", "", "aboutContent.xsl") %>
 			<div class="floatRight">					
-				<!-- #INCLUDE file="../includes/addThis.asp" -->
+				<!-- #Include Virtual="/includes/addThis.asp" -->
 			</div></td>
 		<td id="rightRail">
 			<%If selectedContent="image_gallery" Then%>
-				<script language="javascript" type="text/javascript">
+				<script>
 					var flashObj1 = new FlashWrapper();
 					var flashURL = escape("../images/about/right_rail_dedicated_professionals.swf");
 					var flashWidth = "220";
@@ -75,9 +74,9 @@ oDynamicTabs.QSExclude = strQSExclude
 					flashObj1.initFlashWrapper(flashURL, flashWidth, flashHeight, flashWmode, noFlashImgURL, noFlashImgHREF, noFlashImgAltText, imgMapName);
 				</script>	
 			<%Else%>
-				<img src="<%=images%>about/right_rail_about.jpg" border="0" width="220" height="450" alt="Lafayette Testing Services" />
+				<img src="<%=images%>about/right_rail_about.jpg" alt="Lafayette Testing Services" />
 			<%End If%></td>
 	</tr>
 </table>
 
-<!-- #INCLUDE file="../includes/footer.asp" -->
+<!-- #Include Virtual="/includes/footer.asp" -->

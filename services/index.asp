@@ -1,7 +1,7 @@
-<!-- #Include File="../includes/top.asp" -->
-<!-- #Include File="../includes/fixCharacters.asp" -->
-<!-- #Include File="../includes/XMLDataController.asp" -->
-<!-- #Include File="../includes/dynamicTabs.asp" -->
+<!-- #Include Virtual="/includes/top.asp" -->
+<!-- #Include Virtual="/includes/fixCharacters.asp" -->
+<!-- #Include Virtual="/includes/XMLDataController.asp" -->
+<!-- #Include Virtual="/includes/dynamicTabs.asp" -->
 <%
 	set oXMLDC_1 = new XMLDataController
 	oXMLDC_1.XMLFile = address & "services/metaTags.xml"
@@ -14,7 +14,6 @@
 	
 	title = oXMLDC_2.getXMLData("single", "/Testing/Service[@name='" & serviceType & "']/Headline", "") & " - Lafayette Testing Services"
 	metaDescription = oXMLDC_1.getXMLData("single", "/Testing/Service[@name='" & serviceType & "']/metaDescription", "")
-	metaKeywords = oXMLDC_1.getXMLData("single", "/Testing/Service[@name='" & serviceType & "']/metaKeywords", "")
 
 	dim oXMLDC_1, newAryParams(3,1)
 	
@@ -34,8 +33,8 @@
 	oXMLDC_1.aryParams = newAryParams
 %>
 
-<!-- #INCLUDE file="../includes/header.asp" -->
-<!-- #Include File="../includes/FlashWrapper.asp" -->
+<!-- #Include Virtual="/includes/header.asp" -->
+<!-- #Include Virtual="/includes/FlashWrapper.asp" -->
 
 <%'Dynamic Tabs V1.0
 
@@ -68,10 +67,10 @@ oDynamicTabs.QSExclude = strQSExclude
 			<%= oXMLDC_1.getXMLData("complete", "", "content_disciplines.xsl") %>
 			
 			<div class="floatRight">					
-				<!-- #INCLUDE file="../includes/addThis.asp" -->
+				<!-- #Include Virtual="/includes/addThis.asp" -->
 			</div></td>
 		<td id="rightRail">
-			<script language="javascript" type="text/javascript">
+			<script>
 				var flashObj1 = new FlashWrapper();
 				var flashURL = escape("../images/nondestructive/right_rail_<%=serviceType%>.swf");
 				var flashWidth = "220";
@@ -88,4 +87,4 @@ oDynamicTabs.QSExclude = strQSExclude
 		</td>
 	</tr>
 </table>
-<!-- #INCLUDE file="../includes/footer.asp" -->
+<!-- #Include Virtual="/includes/footer.asp" -->

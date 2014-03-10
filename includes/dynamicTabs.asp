@@ -52,7 +52,7 @@ Class dynamicTabs
 			
 			' Remove any unwanted query string name/value pairs
 			If p_QS <> "" Then				
-				p_QS = Replace(p_QS,"&",p_delimiter)						
+				p_QS = Replace(p_QS,"&amp;",p_delimiter)						
 				p_QSArray = split(p_QS,p_delimiter)
 				p_QSCount = uBound(p_QSArray)
 				p_QSExclude = p_QSExclude & p_delimiter & "selectedContent" & p_delimiter & "XMLFile"
@@ -104,9 +104,9 @@ Class dynamicTabs
 				End If		
 				
 				If p_tabType = "round" Or p_tabType = "" Then
-					p_strOutput = p_strOutput & "<li class='tabLI'><a class='tabMenu' href='" & p_URL & "?selectedContent=" & p_tabTitlePre & "&XMLFile=" & p_tabTitlePre & p_QS & "'><div class='tabSnazzy'><div class='tabTop'><div class='tabRnd1" & p_tabState & "'></div><div class='tabRnd2" & p_tabState & "'></div><div class='tabRnd3" & p_tabState & "'></div><div class='tabRnd4" & p_tabState & "'></div></div><span class='tabContent" & p_tabState & "'>" & p_tabTitlePost & "</span></div></a></li>"
+					p_strOutput = p_strOutput & "<li class='tabLI'><a class='tabMenu' href='" & p_URL & "?selectedContent=" & p_tabTitlePre & "&amp;XMLFile=" & p_tabTitlePre & p_QS & "'><div class='tabSnazzy'><div class='tabTop'><div class='tabRnd1" & p_tabState & "'></div><div class='tabRnd2" & p_tabState & "'></div><div class='tabRnd3" & p_tabState & "'></div><div class='tabRnd4" & p_tabState & "'></div></div><span class='tabContent" & p_tabState & "'>" & p_tabTitlePost & "</span></div></a></li>"
 				Else
-					p_strOutput = p_strOutput & "<li class='tabLI'><a class='tabMenu' href='" & p_URL & "?selectedContent=" & p_tabTitlePre & "&XMLFile=" & p_tabTitlePre & p_QS & "'><div class='tabSnazzy'><div class='tabTop'><div class='tabSqr1" & p_tabState & "'></div><div class='tabSqr2" & p_tabState & "'></div><div class='tabSqr3" & p_tabState & "'></div><div class='tabSqr4" & p_tabState & "'></div></div><span class='tabContent" & p_tabState & "'>" & p_tabTitlePost & "</span></div></a></li>"
+					p_strOutput = p_strOutput & "<li class='tabLI'><a class='tabMenu' href='" & p_URL & "?selectedContent=" & p_tabTitlePre & "&amp;XMLFile=" & p_tabTitlePre & p_QS & "'><div class='tabSnazzy'><div class='tabTop'><div class='tabSqr1" & p_tabState & "'></div><div class='tabSqr2" & p_tabState & "'></div><div class='tabSqr3" & p_tabState & "'></div><div class='tabSqr4" & p_tabState & "'></div></div><span class='tabContent" & p_tabState & "'>" & p_tabTitlePost & "</span></div></a></li>"
 				End If
 				x = x + 1
 			Loop

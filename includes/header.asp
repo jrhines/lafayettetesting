@@ -1,19 +1,18 @@
 <head>
 <meta name="description" content="<%=metaDescription%>" />
-<meta name="keywords" content="<%=metaKeywords%>" />
-<meta name="robots" content="index,follow">
+<meta name="robots" content="index,follow" />
 <meta name="verify-v1" content="EhWLMuLf5BSsbU5JQVghjEW4HRQhDSB6jIq8kDehDy8=" />
 
 <title><%=title%></title>
-<link rel="stylesheet" type="text/css" href="<%=address%>css/lafayettePositions.css" />
-<link rel="stylesheet" type="text/css" href="<%=address%>css/lafayetteText.css" />
-<link rel="stylesheet" type="text/css" href="<%=address%>css/dynamicTabs.css" />
+<link rel="stylesheet" href="<%=address%>css/lafayettePositions.css" />
+<link rel="stylesheet" href="<%=address%>css/lafayetteText.css" />
+<link rel="stylesheet" href="<%=address%>css/dynamicTabs.css" />
 <%Select Case page
 	Case "Home"%>
-		<link rel="stylesheet" type="text/css" href="<%=address%>css/lafayetteHome.css" />
-		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-		<script type="text/javascript" src="<%=address%>scripts/jquery.innerfade.js"></script>
-		<script type="text/javascript">
+		<link rel="stylesheet" href="<%=address%>css/lafayetteHome.css" />
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="<%=address%>scripts/jquery.innerfade.js"></script>
+		<script>
 		   $(document).ready(
 					function(){
 						$('.fade').innerfade({
@@ -26,7 +25,7 @@
 				});
 	  	</script>
 	<%Case "Contact"%>
-		<script language="JavaScript" type="text/javascript">
+		<script>
 			<!--
 			
 			function required(myForm, reqFields){
@@ -41,10 +40,9 @@
 			
 			//--> 
 		</script>
-		<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAASkB-eyvCOQDOCStfofo7VRQZGTprBq9X_Xfn36Qak0_H50rPThRCL79dWzCuh0xcCrx9j4AZDhYVmw"
-	      type="text/javascript"></script>
+		<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAASkB-eyvCOQDOCStfofo7VRQZGTprBq9X_Xfn36Qak0_H50rPThRCL79dWzCuh0xcCrx9j4AZDhYVmw"></script>
 <%End Select%>
-<script language="JavaScript" src="<%=address%>scripts/lafayette.js" type="text/javascript"></script> 
+<script src="<%=address%>scripts/lafayette.js"></script> 
 
 
 <%If NOT InStr(1, sectionPath, "about", 1) = 0  Then
@@ -85,8 +83,7 @@ Else
 End if%>
 </head>
 
-<body bgcolor="#FFFFFF"<%If page = "Contact" Then%> onload="initAll()" onunload="GUnload()" <%ElseIf page = "Home" Then%> onload="fade()" <%End If%>>
-
+<body <%If page = "Contact" Then%> onload="initAll()" onunload="GUnload()" <%ElseIf page = "Home" Then%> onload="fade()" <%End If%>>
 <p id="navSecondary"><a href="<%=address%>contact.asp">Contact</a> <span class="pipe">|</span> <a href="<%=address%>siteMap.asp">Site Map</a></p>
 <div id="navPrimary">
 	<p id="identity">Lafayette Testing Services</p>
@@ -131,25 +128,26 @@ End if%>
 		End Select
 		%>
 		<dl id="headlineFadeText" class="fade">
-			<dd>TESTING</dd>
-			<dd>EVALUATION</dd>
-			<dd>PROFESSIONALS</dd>
-			<dd>MACHINING</dd>
-			<dd>INSPECTION</dd>
-			<dd>PRECISION</dd>
-			<dd>CONFIDENCE</dd>
-			<dd>PROCESS</dd>
-			<dd>EXPERTISE</dd>
-			<dd>EXPERIENCE</dd>
-			<dd>REPUTATION</dd>
-			<dd>DILIGENCE</dd>
-			<dd>TECHNIQUE</dd>
-			<dd>EXAMINATION</dd>
+            <dt></dt>
+			<dd>testing</dd>
+			<dd>evaluation</dd>
+			<dd>professionals</dd>
+			<dd>machining</dd>
+			<dd>inspection</dd>
+			<dd>precision</dd>
+			<dd>confidence</dd>
+			<dd>process</dd>
+			<dd>expertise</dd>
+			<dd>experience</dd>
+			<dd>reputation</dd>
+			<dd>diligence</dd>
+			<dd>technique</dd>
+			<dd>examination</dd>
 		</dl>
 		<p id="bannerCaption"><%=strRandomImageCaption%></p>
-		<img src="<%=images%>homeBanner.jpg" id="headerPosition" height="203" width="554" alt="QUALITY ASSURANCE THROUGH" border="0" /><img src="<%=images & strRandomImage%>" height="220" width="440" alt="" id="header" border="0" />
+		<img src="<%=images%>homeBanner.jpg" id="headerPosition" alt="Quality assurance through" /><img src="<%=images & strRandomImage%>" id="header" alt="" />
 	<%Else%>
-		<img src="<%=images%>header_curve.jpg" id="headerCurve" height="28" width="994" alt="A product tested by Lafayette Testing Services" border="0" />
+		<img src="<%=images%>header_curve.jpg" id="headerCurve" alt="A product tested by Lafayette Testing Services" />
 	<%End If%>
 	<img src="<%=images%>spacer.gif" id="navShadow" alt="" width="1" height="1" style="filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=<%=images%>/nav_shadow_tile.png', sizingMethod='scale')" />
 	<ul>
@@ -157,7 +155,7 @@ End if%>
 		<li id="navNondestructive" <%=navState3%>>
 			<a href="#">Nondestructive Testing Services</a>
 			<ul>
-        		<li><img src="<%=images%>spacer.gif" height="1" width="100" alt="" border="0" /></li>
+        		<li><img src="<%=images%>spacer.gif" height="1" width="100" alt="" /></li>
 				<li><a href="<%=address%>services/index.asp?serviceType=radiography">Radiography</a></li>
 				<li><a href="<%=address%>services/index.asp?serviceType=digitalRadiography">Digital Radiography</a></li>
 				<li><a href="<%=address%>services/index.asp?serviceType=highEnergy">High Energy X-Ray</a></li>

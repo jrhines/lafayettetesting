@@ -4,3 +4,6 @@ Disallow: /includes/
 Disallow: /scripts/
 Disallow: /usageAgreement.asp
 Disallow: /privacyStatement.asp
+Disallow: /review/
+
+Sitemap: http://lafayettetesting.com/sitemap.xml

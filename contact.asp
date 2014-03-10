@@ -1,14 +1,13 @@
-<!-- #INCLUDE file="includes/top.asp" -->
+<!-- #Include Virtual="/includes/top.asp" -->
 <%
 page = "Contact"
 title = "Contact - Lafayette Testing Services"
 metaDescription = "Lafayette Testing Services, Inc. offers high quality non-destructive testing services specializing in radiography, digital radiography, high energy x-ray, magnetic particle, liquid penetrant, and ultrasonics."
-metaKeywords = "Lafayette Testing Services contact information, Lafayette Testing Services contact form, conact Lafayette Testing Services, Lafayette Testing Services address, Lafayette Testing Services phone, Lafayette Testing Services location"
 %>
 
 <!--METADATA TYPE="typelib" UUID="CD000000-8B95-11D1-82DB-00C04FB1625D" NAME="CDO for Windows Library" -->
 <!--METADATA TYPE="typelib" UUID="00000205-0000-0010-8000-00AA006D2EA4" NAME="ADODB Type Library" --> 
-<!-- #INCLUDE file="includes/header.asp" -->
+<!-- #Include Virtual="/includes/header.asp" -->
 
 <script language="javascript" type="text/javascript">
 <!--
@@ -81,4 +80,4 @@ function required(myForm, reqFields){
 			<img src="<%=images%>about/right_rail_about.jpg" border="0" width="220" height="450" alt="Lafayette Testing Services" /></td>
 	</tr>
 </table>
-<!-- #INCLUDE file="includes/footer.asp" -->
+<!-- #Include Virtual="/includes/footer.asp" -->

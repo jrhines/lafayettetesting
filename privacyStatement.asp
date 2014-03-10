@@ -1,11 +1,10 @@
-<!-- #Include file="includes/top.asp" -->
+<!-- #Include Virtual="/includes/top.asp" -->
 <%
 page = "Privacy Statement"
 title = "Privacy Statement - Lafayette Testing Services"
 metaDescription = "Lafayette Testing Services, Inc. offers high quality non-destructive testing services specializing in radiography, digital radiography, high energy x-ray, magnetic particle, liquid penetrant, and ultrasonics."
-metaKeywords = "Lafayette Testing Services privacy statement"
 %>
-<!-- #INCLUDE file="includes/header.asp" -->
+<!-- #Include Virtual="/includes/header.asp" -->
 <div id="articleContainer">
 	<h1>Privacy Statement</h1>
 	<p>Lafayette Testing Services, recognizes the concerns of visitors to our corporate Website as to our collection and use of private information provided to us. This Privacy Statement addresses such concerns. This Privacy Statement may be updated from time to time without prior notice, so please check back occasionally.</p>
@@ -23,4 +22,4 @@ metaKeywords = "Lafayette Testing Services privacy statement"
 	3710 North Richards Street<br/>
 	Milwaukee,  WI 53212</p>
 </div>
-<!-- #INCLUDE file="includes/footer.asp" -->
+<!-- #Include Virtual="/includes/footer.asp" -->

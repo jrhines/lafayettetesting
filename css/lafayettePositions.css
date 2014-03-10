@@ -1,5 +1,9 @@
 /* 	Property Adjustment Key: top, right, bottom, left */
 
+body{
+	background-color: #FFFFFF;
+}
+
 a img { 
     border: none;
 }
@@ -114,6 +118,10 @@ a img {
 	background-image: url(../images/navShadowTile.png);
 }
 
+#content-table {
+	width: 994px;
+}
+
 #articleContainer {
 	width: 80%;
 	padding: 35px 10px 25px 55px;
@@ -141,6 +149,7 @@ a img {
 
 #rightRail {
 	width: 220px;
+	vertical-align: top;
 	background: #214997; 
 	background-repeat: repeat-x; 
 	background-position: top left;
@@ -175,7 +184,7 @@ a img {
 #leadershipImage { 
 	width: 280px; 
 	float: left; 
-	margin: 0px 15px 0px 0px; 
+	margin: 0 15px 0 0; 
 }
 
 /*START FORM ELEMENTS*/	

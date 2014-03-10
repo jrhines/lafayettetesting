@@ -1,27 +1,37 @@
-<!-- #INCLUDE file="includes/top.asp" -->
+<!-- #Include Virtual="/includes/top.asp" -->
 <%
 page = "Home"
 title = "NDT Services | Lafayette Testing Services | Non Destructive Testing"
 metaDescription = "Lafayette Testing Services, Inc. offers high quality nondestructive testing services specializing in radiography, digital radiography, high energy x-ray, magnetic particle, liquid penetrant, and ultrasonics and CNC precision machining services."
-metaKeywords = "high quality testing services, nondestructive testing services, radiography, digital radiography, high energy x-ray, magnetic particle, liquid penetrant, ultrasonics, industrial testing services, CNC precision machining services"
 %>
 
-<!-- #INCLUDE file="includes/header.asp" -->
+<!-- #Include Virtual="/includes/header.asp" -->
 <div id="homeColumns">
 	<div id="leftColumn">
 		<h1>Leading NDT Testing and CNC Precision Machining Services</h1>
-		<div class="floatRight"><img src="<%=images%>100x40LTS050207_070.jpg" height="40" width="100" border="0" alt="Lafayette Testing Services Laboratory" /><img src="<%=images%>100x40LTS050207_006.jpg" height="40" width="100" border="0" alt="Lafayette Testing Services Analysis" /></div>
+		<div class="floatRight"><img src="<%=images%>100x40LTS050207_070.jpg" alt="Lafayette Testing Services Laboratory" /><img src="<%=images%>100x40LTS050207_006.jpg" alt="Lafayette Testing Services Analysis" /></div>
 		<p>Our <a href="<%=address%>about/index.asp?selectedContent=lab_diversification&amp;XMLFile=lab_diversification" title="diversification">Laboratory Diversification Program</a> helps reduce transportation costs and lead times by providing quality <b>NDT Testing (Non destructive)</b> and <a href="<%=address%>services/index.asp?serviceType=cnc" title="cnc"><b>CNC Precision Machining Services</b></a>.</p>
 	 	<p>The latest in equipment technology allows LTS to provide superior quality services.</p>
-		<img src="<%=images%>100x40LTS081706_025.jpg" height="40" width="100" border="0" alt="Lafayette Testing Services Professionals" class="floatRight" />
-		<p><a href="<%=address%>about/index.asp?#professionals" title="professionals">Dedicated Professionals&hellip;</a>the LTS Advantage.</p>
+		<img src="<%=images%>100x40LTS081706_025.jpg" class="floatRight" alt="Lafayette Testing Services Professionals"  />
+		<p><a href="<%=address%>about/index.asp?#professionals" title="professionals">Dedicated Professionals&#8230;</a>the LTS Advantage.</p>
 	</div>
 	<div id="grayField">
-		<h3>Added Capabilities:</h3>
-		<p>Inspect 12" of steel with 2T sensitivity Utilizing our 6 Million Electron Volt Linear Accelerator <a href="<%=address%>services/index.asp?serviceType=highEnergy" title="x-ray"><b>High Energy X-Ray</b></a>.</p>
+        <h2>Facility Expansion</h2>
+        <p>Lafayette Testing Services is proud to announce that we are growing and will be expanding our facility space. Starting February 20, 2014, work will begin to add an additional 3,800 square feet to our existing 30,000 square foot laboratory. This project is essential for improving shipping/receiving and material handling. This project also increases our Magnetic Particle and Penetrant departments to accommodate larger parts.</p>
+        <p>Additional improvements and features include:</p>
+        <ul class="listblack">
+            <li>New larger shipping/receiving Area with new entrance from Richards Street.</li>
+            <li>Indoor truck accessible large part handling area with a 15 ton crane.</li>
+            <li>New larger Penetrant and Magnetic Particle inspection area for large parts.</li>
+            <li>New fenced customer and employee parking area.</li>
+        </ul>
+        <p>The expansion project is expected to take about eight weeks to complete from February 20, 2014 through April 13, 2014. The project will begin at the North face of our current facility, then extend West towards Richards Street. There will be periods when the current shipping/receiving areas will be blocked. Temporary shipping/receiving areas will be located on the east side of the building along the alley way. The main entrance (the front entrance located on Richards Street) will be the only point of entry to the laboratory.</p>
+        <p>We apologize in advance for any inconveniences that may occur during construction.</p>
+        <h3>Added Capabilities:</h3>
+		<p>Inspect 12&#8243; of steel with 2T sensitivity Utilizing our 6 Million Electron Volt Linear Accelerator <a href="<%=address%>services/index.asp?serviceType=highEnergy" title="x-ray"><b>High Energy X-Ray</b></a>.</p>
 		<p>Our <a href="<%=address%>services/index.asp?serviceType=digitalRadiography" title="radiography"><b>Digital Radiography</b></a> technology allows our customers to store images to CD and distribute photos worldwide.</p>
-	</div>
-	<div id="rightColumn" align="center">
+    </div>
+	<div id="rightColumn">
 		<map name="servicesMap">
 			<area alt="Radiography Testing" shape="poly" coords="89,21,89,85,143,46,114,25" href="<%=address%>services/index.asp?serviceType=radiography">
 			<area alt="CNC Machining" shape="poly" coords="142,123,88,86,142,47,155,84" href="<%=address%>services/index.asp?serviceType=cnc">
@@ -30,7 +40,7 @@ metaKeywords = "high quality testing services, nondestructive testing services, 
 			<area alt="Magnetic Particle Testing" shape="poly" coords="33,125,88,85,34,46,21,85" href="<%=address%>services/index.asp?serviceType=magnetic">
 			<area alt="Ultrasonics Testing" shape="poly" coords="87,21,58,27,36,45,87,86" href="<%=address%>services/index.asp?serviceType=ultrasonics">
 		</map>
-		<img src="<%=images%>ltsServicesLogo.gif" width="177" height="177" border="0" usemap="#servicesMap" alt="NDT Services | Lafayette Testing Services | Non Destructive Testing" />
-	</div>
+		<img src="<%=images%>ltsServicesLogo.gif" usemap="#servicesMap" alt="NDT Services | Lafayette Testing Services | Non Destructive Testing" />
+    </div>
 </div>
-<!-- #INCLUDE file="includes/footer.asp" -->
+<!-- #Include Virtual="/includes/footer.asp" -->

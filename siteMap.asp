@@ -1,11 +1,10 @@
-<!-- #Include file="includes/top.asp" -->
+<!-- #Include Virtual="/includes/top.asp" -->
 <%
 page = "Site Map"
 title = "Site Map - Lafayette Testing Services"
 metaDescription = "Lafayette Testing Services, Inc. offers high quality non-destructive testing services specializing in radiography, digital radiography, high energy x-ray, magnetic particle, liquid penetrant, and ultrasonics."
-metaKeywords = "Lafayette Testing Services site map, Web site map"
 %>
-<!-- #INCLUDE file="includes/header.asp" -->
+<!-- #Include Virtual="/includes/header.asp" -->
 <div id="articleContainer" class="siteMap">
 	<h1>Site Map</h1>
 	<div class="articleColumn">
@@ -50,4 +49,4 @@ metaKeywords = "Lafayette Testing Services site map, Web site map"
 		</dl>
 	</div>
 </div>
-<!-- #INCLUDE file="includes/footer.asp" -->
+<!-- #Include Virtual="/includes/footer.asp" -->

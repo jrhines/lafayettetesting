@@ -1,6 +1,9 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<!--[if IE 7 ]><html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js ie ie7 lte7 lte8 lte9"><![endif]-->
+<!--[if IE 8 ]><html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js ie ie8 lte8 lte9"><![endif]-->
+<!--[if IE 9 ]><html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js ie ie9 lte9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js"><!--<![endif]-->
 
 <%
 dim developmentLocation
@@ -25,8 +28,10 @@ developmentLocation = Request.ServerVariables("HTTP_HOST")
 sectionPath = Request.ServerVariables("URL")
 
 Select Case developmentLocation
-	Case "localhost"
-		address = "http://localhost/lafayettetesting/"
+	Case "localhost:63710"
+		address = "http://localhost:63710/"
+    Case "www.lafayettetesting.com/review/"
+		address = "http://www.lafayettetesting.com/review/"
 	Case Else
 		address = "http://www.lafayettetesting.com/"
 End Select

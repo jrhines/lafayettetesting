@@ -95,7 +95,7 @@
 			returnString = Replace(returnString, "(r)", "&#174;")
 			
 			'ellipses
-			returnString = Replace(returnString, "&hellip;", "&#133;")
+			returnString = Replace(returnString, "&hellip;", "&#8230;")
 			
 		elseif loc = "postTransform" then
 		
@@ -151,7 +151,7 @@
 			returnString = Replace(returnString, "&apos;", "&#39;")
 			
 			'ellipses
-			returnString = Replace(returnString, "&hellip;", "&#133;")
+			returnString = Replace(returnString, "&hellip;", "&#8230;")
 			
 			
 		end if
@@ -229,7 +229,7 @@
 		returnStringNonXSL = Replace(returnStringNonXSL, "Ú", "&#218;")
 		
 		'ellipses
-		returnString = Replace(returnString, "&hellip;", "&#133;")
+		returnString = Replace(returnString, "&hellip;", "&#8230;")
 	
 		fixCharactersNonXSL = returnStringNonXSL
 		

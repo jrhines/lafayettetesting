@@ -45,7 +45,7 @@ extension-element-prefixes="msxsl user">
 
 <xsl:template match="gallery/image">
 	<a><xsl:attribute name="href">index.asp?selectedContent=<xsl:value-of select="$selectedContent"/>&amp;XMLFile=<xsl:value-of select="$XMLFile"/>&amp;image=<xsl:value-of select="@alt"/></xsl:attribute>
-	<img name="xsl" border="0" width="90" class="margin_0_2_2_0">
+	<img name="xsl" class="margin_0_2_2_0">
 		<xsl:attribute name="src">../images/about/thumbnails/<xsl:value-of select="@alt"/><xsl:value-of select="file"/></xsl:attribute>
 		<xsl:attribute name="alt"><xsl:value-of select="@alt" disable-output-escaping="yes" /></xsl:attribute>
 		<xsl:attribute name="title"><xsl:value-of select="Info" disable-output-escaping="yes" /></xsl:attribute>

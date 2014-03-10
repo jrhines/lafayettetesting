@@ -20,6 +20,8 @@ a:hover { color: #2D66D2; }
 .noUnderline a:active { text-decoration: none; }
 .noUnderline a:hover { text-decoration: none; }
 
+.uppercase { text-transform: uppercase; }
+
 p {text-indent: 0px; text-align: left; margin: 0px 0px 10px 0px; line-height: 140%; }
 
 h1 {font-size: 190%; color: #2752A4; font-weight: normal; margin: 10px 0px 10px 0px; }
@@ -58,10 +60,11 @@ h5 {font-size: 100%; color: #000000; font-weight: bold; text-transform: uppercas
 
 ul.listblack {
 	position: relative;
+	margin: 0 0 10px 0;
+	padding: 0 0 0 12px;
+	*padding: 0 0 0 16px;
 	list-style-image: url(../images/bullet_black.gif);
 	list-style-type: disc;
-	padding: 0px 0px 0px 12px;
-	*padding: 0px 0px 0px 16px;
 	line-height: 150%;
 }
 
