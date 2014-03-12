@@ -75,8 +75,8 @@ oDynamicTabs.QSExclude = strQSExclude
 				</script>	
 			<%Else%>
 				<img src="<%=images%>about/right_rail_about.jpg" alt="Lafayette Testing Services" />
-			<%End If%></td>
+			<%End If%>
+		</td>
 	</tr>
 </table>
-
 <!-- #Include Virtual="/includes/footer.asp" -->

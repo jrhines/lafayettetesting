@@ -1,6 +1,5 @@
 
 <!DOCTYPE html>
-<!--[if IE 7 ]><html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js ie ie7 lte7 lte8 lte9"><![endif]-->
 <!--[if IE 8 ]><html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js ie ie8 lte8 lte9"><![endif]-->
 <!--[if IE 9 ]><html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js ie ie9 lte9"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js"><!--<![endif]-->
@@ -30,7 +29,7 @@ sectionPath = Request.ServerVariables("URL")
 Select Case developmentLocation
 	Case "localhost:63710"
 		address = "http://localhost:63710/"
-    Case "www.lafayettetesting.com/review/"
+    Case "www.lafayettetesting.com"
 		address = "http://www.lafayettetesting.com/review/"
 	Case Else
 		address = "http://www.lafayettetesting.com/"

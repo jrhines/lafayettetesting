@@ -5,14 +5,9 @@
 	overflow: hidden;
 }
 
-#headerPosition {
-	margin: 60px 0px 0px 0px;
-	*margin: 0px;
-}
-
 #leftColumn {
 	width: 40%;
-	border-right: 1px solid #FFFFFF;
+	border-right: 1px solid #FFF;
 	background: transparent url(../images/grayHomeTile.gif) repeat-y top left;
 	float: left;
 	padding: 25px 10px 10px 10px;
@@ -20,7 +15,7 @@
 
 #grayField {
 	width: 332px;
-	border-right: 1px solid #FFFFFF;
+	border-right: 1px solid #FFF;
 	padding: 25px 10px 10px 10px;
 	float: left;
 }
@@ -34,12 +29,12 @@
 
 #leftColumn, #grayField, #rightColumn {
 	height: 670px;
-	border-bottom: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFF;
 	background-color: #E3E2E2;
 }
 
 #bannerCaption {
-	color: #FFFFFF;
+	color: #FFF;
 	font-size: 80%;
 	z-index: 99;
 	font-weight: bold;
@@ -59,18 +54,28 @@
 	*top: 153px;
 	left: 157px;
 	*left: 170px;
-	color: #FFFFFF;
+	color: #FFF;
 	text-transform: uppercase;
 	*padding: 5px;
 }
 
 #navPrimary ul {
-	margin: -2px 0px 0px 0px;
+	margin: -2px 0 0 0;
 }
 
-#navPrimary ul li:hover ul, #navPrimary ul a:hover ul, #navShadow {
+#navShadow {
 	top: 316px;
 	*top: 333px;
 }
 
-h1 {font-size: 150%; color: #2752A4; font-weight: bold; text-transform: uppercase; margin: 0px 0px 10px 0px; }
+#navPrimary ul li:hover ul,
+#navPrimary ul a:hover ul {
+	top: 25px;
+}
+
+h1 {
+	font-size: 150%; 
+	color: #2752A4; 
+	font-weight: bold; 
+	text-transform: uppercase; 
+	margin: 0 0 10px 0; }

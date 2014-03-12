@@ -7,45 +7,35 @@ body {
 	text-decoration: none;
 } 
 
-a:link { color: #2752A4; }
-a:visited { color: #2752A4; }
+a:link,
+a:visited,
 a:active { color: #2752A4; }
 a:hover { color: #2D66D2; }
 
-.noUnderline { 
-	text-decoration: none; 
-}
-.noUnderline a:link { text-decoration: none; }
-.noUnderline a:visited { text-decoration: none; }
-.noUnderline a:active { text-decoration: none; }
+.noUnderline,
+.noUnderline a:link,
+.noUnderline a:visited,
+.noUnderline a:active,
 .noUnderline a:hover { text-decoration: none; }
 
 .uppercase { text-transform: uppercase; }
 
-p {text-indent: 0px; text-align: left; margin: 0px 0px 10px 0px; line-height: 140%; }
+p {text-indent: 0; text-align: left; margin: 0 0 10px 0; line-height: 140%; }
 
-h1 {font-size: 190%; color: #2752A4; font-weight: normal; margin: 10px 0px 10px 0px; }
-h2 {font-size: 150%; color: #2752A4; font-weight: bold; text-transform: uppercase; margin: 0px 0px 10px 0px; }
-h3 {font-size: 110%; color: #2752A4; font-weight: bold; text-transform: uppercase; margin: 0px 0px 10px 0px; }
+h1 {font-size: 190%; color: #2752A4; font-weight: normal; margin: 10px 0; }
+h2 {font-size: 150%; color: #2752A4; font-weight: bold; text-transform: uppercase; margin: 0 0 10px 0; }
+h3 {font-size: 110%; color: #2752A4; font-weight: bold; text-transform: uppercase; margin: 0 0 10px 0; }
 h4 {font-size: 150%; color: #2752A4; font-weight: normal;}
-h5 {font-size: 100%; color: #000000; font-weight: bold; text-transform: uppercase;}
+h5 {font-size: 100%; color: #000; font-weight: bold; text-transform: uppercase;}
 
-.homeHeadline {font-size: 190%; color: #000000; }
-
-#identity {
-	font-size: 122%; 
-	color: #003366; 
-	font-weight: bold; 
-	text-transform: uppercase;
-	letter-spacing: -.5px;
-	margin: 0px 0px 0px 10px;
-	position: absolute;
-	top: 25px;
+.homeHeadline {
+	font-size: 190%; 
+	color: #000; 
 }
 
 .listwhite {
 	list-style: none;
-	color: #FFFFFF;
+	color: #FFF;
 }
 
 .listwhite li {
@@ -70,8 +60,8 @@ ul.listblack {
 
 ol {
 	position: relative;
-	padding: 0px 0px 0px 20px;
-	*padding: 0px 0px 0px 24px;
+	padding: 0 0 0 20px;
+	*padding: 0 0 0 24px;
 	line-height: 150%;
 }
 
@@ -86,17 +76,17 @@ ol {
 
 .whiteNoLink {
 	display: block;
-	color: #FFFFFF;
+	color: #FFF;
 	background: none;
 	font-size: 75%;
 	font-weight: bold;
 	text-transform: uppercase;
-	padding: 10px 10px 0px 0px;
+	padding: 10px 10px 0 0;
 }
 
 .fineprint {
 	font-size: 85%;
-	color: #000000;
+	color: #000;
 }
 
 .error {
@@ -104,12 +94,12 @@ ol {
 }
 
 .siteMap dl, dl {
-	margin: 0px 0px 10px 0px;
+	margin: 0 0 10px 0;
 	line-height: 150%;
 }
 
 .siteMap dl dd, dl dd {
-	padding: 0px 0px 0px 20px;
+	padding: 0 0 0 20px;
 }
 
 .siteMap dl dt, dl dt {

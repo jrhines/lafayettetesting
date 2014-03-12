@@ -83,10 +83,10 @@ Else
 End if%>
 </head>
 
-<body <%If page = "Contact" Then%> onload="initAll()" onunload="GUnload()" <%ElseIf page = "Home" Then%> onload="fade()" <%End If%>>
+<body<%If page = "Contact" Then%> onload="initAll()" onunload="GUnload()"<%ElseIf page = "Home" Then%> onload="fade()"<%End If%>>
 <p id="navSecondary"><a href="<%=address%>contact.asp">Contact</a> <span class="pipe">|</span> <a href="<%=address%>siteMap.asp">Site Map</a></p>
 <div id="navPrimary">
-	<p id="identity">Lafayette Testing Services</p>
+	<a id="identity" href="<%=address%>index.asp"><img src="<%=images%>ltsLogoHeader.gif" alt="Lafayette Testing Services" /><span>Lafayette Testing Services</span></a>
 	<%If page = "Home"  Then
 
 		Response.Buffer = True
@@ -144,12 +144,12 @@ End if%>
 			<dd>technique</dd>
 			<dd>examination</dd>
 		</dl>
-		<p id="bannerCaption"><%=strRandomImageCaption%></p>
-		<img src="<%=images%>homeBanner.jpg" id="headerPosition" alt="Quality assurance through" /><img src="<%=images & strRandomImage%>" id="header" alt="" />
+		<p id="bannerCaption"><%=strRandomImageCaption%></p><br />
+		<img src="<%=images%>homeBanner.jpg" alt="Quality assurance through" /><img src="<%=images & strRandomImage%>" id="header" alt="" />
 	<%Else%>
 		<img src="<%=images%>header_curve.jpg" id="headerCurve" alt="A product tested by Lafayette Testing Services" />
 	<%End If%>
-	<img src="<%=images%>spacer.gif" id="navShadow" alt="" width="1" height="1" style="filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=<%=images%>/nav_shadow_tile.png', sizingMethod='scale')" />
+	<img src="<%=images%>spacer.gif" id="navShadow" alt="" style="filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=<%=images%>/nav_shadow_tile.png', sizingMethod='scale')" />
 	<ul>
 		<li id="navHome" <%=navState1%>><a href="<%=address%>index.asp">Home</a></li>
 		<li id="navNondestructive" <%=navState3%>>

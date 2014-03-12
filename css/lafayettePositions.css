@@ -1,7 +1,7 @@
 /* 	Property Adjustment Key: top, right, bottom, left */
 
 body{
-	background-color: #FFFFFF;
+	background-color: #FFF;
 }
 
 a img { 
@@ -16,45 +16,56 @@ a img {
 }
 
 .pipe {
-	margin: 0px 5px;
+	margin: 0 5px;
 }
 
 #identity {
-	padding: 0px 0px 0px 125px;
+	margin: 0;
+	padding: 0;
 	font-size: 122%; 
-	color: #003366; 
 	font-weight: bold; 
 	text-transform: uppercase;
 	letter-spacing: -.5px;
 }
 
-#headerCurve{
-	margin: 60px 0px 0px 0px;
+#identity span {
+	position: absolute;
+	top: 30px;
+	margin: 0 0 0 10px;
+	width: 300px;
+	color: #001B51;
+}
+
+#headerCurve {
+	clear: both;
 	display: block;
+	width: 994px;
+	margin: 60px 0 0 0;
 }
 
 #navPrimary {
-	background: #FFFFFF url(../images/ltsLogoHeader.gif) no-repeat top left;
+	position: relative;
+	overflow: visible;
 	width: 994px;
-	overflow: hidden;
-	*padding: 60px 0px 0px 0px;
+	*padding: 60px 0 0 0;
 }
 
 #navPrimary ul {
+	position: relative;
 	float: left;
 	background: url(../images/navBackground.gif) repeat-x top left;
 	width: 100%;
 	list-style: none;
 	font-size: 110%;
-	margin: 0px;
-	border-top: 1px solid #FFFFFF;
+	margin: 0;
+	border-top: 1px solid #FFF;
 	text-transform: uppercase;
 }
 
 #navPrimary li {
 	float: left;
 	display: inline;
-	margin: 0px auto;
+	margin: 0 auto;
 	height: 25px;
 	border-right: 1px solid #00336F;
 }
@@ -63,57 +74,62 @@ a img {
 	float: left;
 	display: block;
 	position: relative;
-	padding: 6px 10px 0px 10px;
+	padding: 6px 10px 0 10px;
 	text-decoration: none;
 	font-weight: bold;
 	color: #6699CC;
 }
 
 #navPrimary a:hover {
- 	color: #FFFFFF;
+ 	color: #FFF;
 }
 
-#navPrimary li:hover, #navPrimary li:hover a, li a:hover {
+#navPrimary li:hover, 
+#navPrimary li:hover a, 
+li a:hover {
 	background-color: #2C60C6;
 }
 
 #navPrimary ul li.navOn a {
 	background-color: #2C60C6;
-	color: #FFFFFF;
+	color: #FFF;
 	height: 19px;
 }
 
 /* START SUB-MENUS */
 #navPrimary ul ul {
+	display: block;
 	visibility: hidden;
 	position: absolute;
-	height: 25px;
-	left: 0px;
+	top: 25px;
+	left: 0;
+	margin: 0;
+	padding: 0;
 	width: 994px;
+	height: 25px;
 	background: #2C60C6;
 	font-size: 85%;
-	border: 0px solid transparent;
+	border: 0 solid transparent;
 }
 
-#navPrimary ul li:hover ul, #navPrimary ul a:hover ul {
-	display: block;
+#navPrimary ul li:hover ul, 
+#navPrimary ul a:hover ul {
 	visibility: visible;
-	top: 114px;
 }
 
 #navPrimary ul li:hover ul li {
-	border: 0px solid transparent;
+	border: 0 solid transparent;
 	float: right;
 }
 
 /* END SUB-MENUS */
 
 #navShadow {
+	position: absolute;
+	top: 131px;
+	left: 0;
 	width: 994px;
 	height: 13px; 
-	position: absolute;
-	top: 114px;
-	left: 0px;
 	*background-image: none;
 	background-image: url(../images/navShadowTile.png);
 }
@@ -129,14 +145,14 @@ a img {
 
 .articleColumn {
 	float: left; 
-	margin: 0px 40px 0px 0px;
+	margin: 0 40px 0 0;
 }
 
 #footerContainer {
 	width: 994px;
 	text-align: center;
 	border-top: 1px solid #001B51;
-	padding: 10px 0px 10px 0px;
+	padding: 10px 0;
 	font-size: 85%;
 	clear: both;
 }
@@ -153,7 +169,7 @@ a img {
 	background: #214997; 
 	background-repeat: repeat-x; 
 	background-position: top left;
-	border-bottom: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFF;
 }
 
 #changling_directions {
@@ -164,7 +180,7 @@ a img {
 	height: 520px;
 	*height: 550px;
 	border: 1px solid #000000;
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
 	background-color: #FDFDFD;
 }
 
@@ -192,28 +208,28 @@ input {
 	display: block;
 	width: 175px;
 	float: left;
-	margin: 0px 0px 10px 0px;
+	margin: 0 0 10px 0;
 }
 
 .zip {
 	display: block;
 	width: 80px;
 	float: left;
-	margin: 0px 0px 10px 0px;
+	margin: 0 0 10px 0;
 }
 
 .phone {
 	display: block;
 	width: 90px;
 	float: left;
-	margin: 0px 0px 10px 0px;
+	margin: 0 0 10px 0;
 }
 
 select {
 	display: block;
 	width: 75px;
-	margin: 0px 0px 0px 160px;
-	*margin: 0px 0px 0px 0px;
+	margin: 0 0 0 160px;
+	*margin: 0;
 }
 
 label {
@@ -221,22 +237,23 @@ label {
 	text-align: right;
 	float: left;
 	width: 150px;
-	padding: 0px 10px 0px 0px;
+	padding: 0 10px 0 0;
 }
 
 .buttonSubmit {
-	margin: 10px 0px 0px 10px;
+	margin: 10px 0 0 10px;
 	width: 75px;
 	float: right;
 }
 
 .buttonReset {
 	width: 75px;
-	margin: 0px 10px 0px 0px;
+	margin: 0 10px 0 0;
 	float: right;
 }
 
-br {
+br,
+.clearLeft {
 	clear: left;
 }
 
@@ -244,28 +261,24 @@ br.noClear {
 	clear: none;
 }
 
-clearLeft {
-	clear: left;
-}
-
 .radio {
 	display: block;
 	width: 20px;
 	float: left;
-	margin: 0px 0px 10px 0px;
+	margin: 0 0 10px 0;
 }
 
 .checkbox {
 	display: block;
 	width: 20px;
 	float: left;
-	margin: 0px 10px 10px 0px;
+	margin: 0 10px 10px 0;
 }
 /*END FORM ELEMENTS*/
 
 .serviceLogoPosition {
 	float: left;
-	margin: 0px 10px 10px 0px;
+	margin: 0 10px 10px 0;
 }
 
 .floatRight {
@@ -276,12 +289,12 @@ clearLeft {
 	float: left;
 }
 
-.visibility_on {
+.visibility_on,
+.visibility_off {
 	visibility: visible;
-		z-index: 10;
+	z-index: 10;
 }
 
 .visibility_off {
 	visibility: hidden;
-	z-index: 10;
 }
