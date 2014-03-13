@@ -1,9 +1,16 @@
 <head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="initial-scale=1, width=device-width, user-scalable=no" />
+<title><%=title%></title>	
 <meta name="description" content="<%=metaDescription%>" />
-<meta name="robots" content="index,follow" />
+<meta name="author" content="Lafayette Testing Services" />
+<meta name="copyright" content="Copyright <% Response.Write Year(now) %> Lafayette Testing Services. All Rights Reserved." />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
 <meta name="verify-v1" content="EhWLMuLf5BSsbU5JQVghjEW4HRQhDSB6jIq8kDehDy8=" />
 
-<title><%=title%></title>
 <link rel="stylesheet" href="<%=address%>css/lafayettePositions.css" />
 <link rel="stylesheet" href="<%=address%>css/lafayetteText.css" />
 <link rel="stylesheet" href="<%=address%>css/dynamicTabs.css" />

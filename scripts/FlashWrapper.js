@@ -48,7 +48,7 @@ FlashWrapper.prototype.initFlashWrapper = function(thisMovie, thisWidth, thisHei
 			this.writeFlashObj();
 		}
 		else {				
-			document.write("static image")
+			document.write("")
 		}
 	}
 	else if ( navigator.mimeTypes && navigator.mimeTypes.length )
@@ -131,7 +131,7 @@ FlashWrapper.prototype.writeStaticImg = function()
 				document.write("<a href=\"" + this.thisStaticImgLink + "\">");
 			}
 			
-			document.write("<img src=\"" + this.thisStaticImg + "\" width=\"" + this.thisWidth + "\" height=\"" + this.thisHeight + "\" border=\"0\" alt=\"" + this.thisStaticImgAlt + "\">");
+			document.write("<img src=\"" + this.thisStaticImg + "\" alt=\"" + this.thisStaticImgAlt + "\">");
 			
 			if ( this.thisStaticImgLink != "" )
 			{
@@ -141,7 +141,7 @@ FlashWrapper.prototype.writeStaticImg = function()
 		
 		else
 		{
-			document.write("<img src=\"" + this.thisStaticImg + "\" width=\"" + this.thisWidth + "\" height=\"" + this.thisHeight + "\" border=\"0\" alt=\"" + this.thisStaticImgAlt + "\" usemap=\"#" + this.thisStaticImgMap + "\">");
+			document.write("<img src=\"" + this.thisStaticImg + "\" alt=\"" + this.thisStaticImgAlt + "\" usemap=\"#" + this.thisStaticImgMap + "\">");
 		}
 
 	}
