@@ -29,7 +29,7 @@ sectionPath = Request.ServerVariables("URL")
 Select Case developmentLocation
 	Case "localhost:63710"
 		address = "http://localhost:63710/"
-    Case "www.lafayettetesting.com"
+    Case "www.lafayettetesting.com/review"
 		address = "http://www.lafayettetesting.com/review/"
 	Case Else
 		address = "http://www.lafayettetesting.com/"
