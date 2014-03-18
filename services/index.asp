@@ -66,6 +66,28 @@ oDynamicTabs.QSExclude = strQSExclude
 	
 			<%= oXMLDC_1.getXMLData("complete", "", "content_disciplines.xsl") %>
 			
+            <div id="service-information">
+                <ul class="resp-tabs-list">
+		            <li>Technical Specifications</li>
+		            <li>Advantages</li>
+				    <li>Applications</li>
+		        </ul> 
+		        <div class="resp-tabs-container">                                                        
+		            <div>
+                        <h3>Technical Specifications</h3>
+                        <p>who</p>
+                    </div>
+                    <div>
+	            	    <h3>Advantages</h3>
+					    where
+		            </div>
+		            <div>
+		                <h3>Applications</h3>
+					    what
+		            </div>
+                </div>
+            </div>
+
 			<div class="floatRight">					
 				<!-- #Include Virtual="/includes/addThis.asp" -->
 			</div></td>

@@ -11,13 +11,15 @@
 
 <meta name="verify-v1" content="EhWLMuLf5BSsbU5JQVghjEW4HRQhDSB6jIq8kDehDy8=" />
 
+<link rel="stylesheet" href="<%=address%>css/easy-responsive-tabs.css" />
 <link rel="stylesheet" href="<%=address%>css/lafayettePositions.css" />
 <link rel="stylesheet" href="<%=address%>css/lafayetteText.css" />
 <link rel="stylesheet" href="<%=address%>css/dynamicTabs.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <%Select Case page
 	Case "Home"%>
 		<link rel="stylesheet" href="<%=address%>css/lafayetteHome.css" />
-		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		
 		<script src="<%=address%>scripts/jquery.innerfade.js"></script>
 		<script>
 		   $(document).ready(
@@ -49,8 +51,6 @@
 		</script>
 		<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAASkB-eyvCOQDOCStfofo7VRQZGTprBq9X_Xfn36Qak0_H50rPThRCL79dWzCuh0xcCrx9j4AZDhYVmw"></script>
 <%End Select%>
-<script src="<%=address%>scripts/lafayette.js"></script> 
-
 
 <%If NOT InStr(1, sectionPath, "about", 1) = 0  Then
 	navState1 = ""

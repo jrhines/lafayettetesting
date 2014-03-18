@@ -1,4 +1,17 @@
-function changeClass (id, newClass){
+jQuery(document).ready(function() {
+    //Responsive Tabs
+    if (jQuery(".resp-tabs-list").length > 0) {
+        jQuery("#service-information").easyResponsiveTabs({
+            type: 'default', //Types: default, vertical, accordion           
+            width: 'auto', //auto or any custom width
+            fit: true,   // 100% fits in a container
+            closed: false, // Close the panels on start, the options 'accordion' and 'tabs' keep them closed in there respective view types
+            activate: function () { }  // Callback function, gets called if tab is switched
+        });
+    }
+});
+
+function changeClass(id, newClass) {
 		 var elemToChange = document.getElementById(id);
 		 elemToChange.className = newClass;
       }
