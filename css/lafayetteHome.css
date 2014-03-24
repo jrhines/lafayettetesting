@@ -28,7 +28,7 @@
 }
 
 #leftColumn, #grayField, #rightColumn {
-	height: 670px;
+	height: 580px;
 	border-bottom: 1px solid #FFF;
 	background-color: #E3E2E2;
 }
